@@ -1,0 +1,1 @@
+allUnits join group player

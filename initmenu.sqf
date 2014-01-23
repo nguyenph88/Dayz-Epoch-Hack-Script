@@ -1,0 +1,13 @@
+vehicle player addAction ['<t color=''#00EBFF''>Heal</t>', 'C:\Scripts\heal.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>2D Map</t>', 'C:\Scripts\2dmap.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Zombie Shield</t>', 'C:\Scripts\zombieshield.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Player Shield</t>', 'C:\Scripts\playershield.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Repair Vehicle</t>', 'C:\Scripts\repair.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Teleport</t>', 'C:\Scripts\tele.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Spawn Ammo</t>', 'C:\Scripts\giveammo.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Spawn Skin</t>', 'C:\Scripts\skins.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Spawn Weapon</t>', 'C:\Scripts\weapon2.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Spawn Items</t>', 'C:\Scripts\item2.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Spawn Backpack</t>', 'C:\Scripts\bp.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>ESP</t>', 'C:\Scripts\esp.sqf'];
+vehicle player addAction ['<t color=''#00EBFF''>Remove Recoil</t>', 'C:\Scripts\recoil.sqf'];

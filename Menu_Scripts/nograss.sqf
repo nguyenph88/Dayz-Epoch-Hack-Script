@@ -1,0 +1,1 @@
+noGrassIndex = _this select 1;while {(vars select noGrassIndex) == "1"} do{	setTerrainGrid 50;};if((vars select noGrassIndex) == "0") then{	setTerrainGrid 0;};
