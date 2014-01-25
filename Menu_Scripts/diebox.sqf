@@ -12,8 +12,8 @@ _backpacks = [
 //"DZ_Assault_Pack_EP1",
 //"DZ_CivilBackpack_EP1",
 "DZ_ALICE_Pack_EP1",
-"DZ_LargeGunBag_EP1"
-//"DZ_Backpack_EP1"
+"DZ_LargeGunBag_EP1",
+"DZ_Backpack_EP1"
 ];
 
 _items = [
@@ -168,7 +168,15 @@ _weapons = [
 "Winchester1866",
 "M249_m145_EP1",
 "M60A4_EP1",
-"m240_scoped_EP1"
+"m240_scoped_EP1",
+"SCAR_H_LNG_Sniper_SD",
+"G36_C_SD_camo",
+"M4A1_AIM_SD_camo",
+"FN_FAL_ANPVS4",
+"BAF_LRR_scoped",
+"FN_FAL",
+"Mk_48_DZ",
+"M240_DZ"
 ];
 
 _ammo = [
@@ -238,7 +246,12 @@ _ammo = [
 "200Rnd_556x45_M249",
 "100Rnd_556x45_M249",
 "100Rnd_556x45_BetaCMag",
-"75Rnd_545x39_RPK"
+"75Rnd_545x39_RPK",
+"20Rnd_762x51_SB_SCAR",
+"30Rnd_556x45_StanagSD",
+"5Rnd_86x70_L115A1",
+"15Rnd_9x19_M9SD",
+"8Rnd_9x18_MakarovSD"
 ];
 
 _explosives = [

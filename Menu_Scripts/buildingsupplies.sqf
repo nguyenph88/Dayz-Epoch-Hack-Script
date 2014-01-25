@@ -93,7 +93,9 @@ _items = [
 "ItemSandbagExLarge",
 "ItemSandbagExLarge5x",
 "ItemTrashToiletpaper",
-"ItemTrashRazor"
+"ItemTrashRazor",
+"ItemTankTrap",
+"ItemSandbag"
 ];
 
 

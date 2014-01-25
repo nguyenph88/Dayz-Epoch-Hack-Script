@@ -24,7 +24,7 @@ player addMagazine "15Rnd_9x19_M9SD";
 player addMagazine 'ItemBandage';
 player addMagazine 'ItemBandage';
 player addWeapon 'ItemGPS';
-player addWeapon 'Binocular_vector';
+player addWeapon 'Binocular';
 player addWeapon 'NVGoggles';
 player addWeapon 'ItemCompass';
 player addWeapon 'ItemMap';
@@ -37,6 +37,9 @@ player addWeapon 'ItemFlashlightRed';
 player addWeapon 'ItemMatchbox';
 player addWeapon 'ItemWatch';
 player addWeapon 'ItemToolbox';
+player addWeapon 'ItemCrowbar';
+player addWeapon 'ItemToolbox';
+player addWeapon 'ItemHotwireKit';
 
 
 bp = unitBackpack player;

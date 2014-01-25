@@ -5,10 +5,10 @@ removeAllItems player;
 removebackpack player;
 
 player addBackPack "DZ_Backpack_EP1";
-player addweapon "M4A1_Aim";
-player selectWeapon "M4A1_Aim";
-player addMagazine '30Rnd_556x45_Stanag';
-player addMagazine '30Rnd_556x45_Stanag';
+player addweapon "m240_scoped_EP1";
+player selectWeapon "m240_scoped_EP1";
+player addMagazine '100Rnd_762x51_M240';
+player addMagazine '100Rnd_762x51_M240';
 player addMagazine 'ItemPainkiller';
 player addweapon "M9SD";
 player addMagazine "15Rnd_9x19_M9SD";
@@ -33,6 +33,9 @@ player addWeapon 'ItemFlashlightRed';
 player addWeapon 'ItemMatchbox';
 player addWeapon 'ItemWatch';
 player addWeapon 'ItemToolbox';
+player addWeapon 'ItemCrowbar';
+player addWeapon 'ItemToolbox';
+player addWeapon 'ItemHotwireKit';
 
 bp = unitBackpack player;
 bp addweaponCargoGlobal ["DMR",1];

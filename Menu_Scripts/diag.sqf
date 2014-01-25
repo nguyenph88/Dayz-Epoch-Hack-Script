@@ -39,7 +39,7 @@ option = []; img = [];
 hint "Ingame Readme executed Sir :)";
 img = img + [""]; option = option + [":::::::::::::::::::::::::::::::::::::::::::::: Admin Menu Read Me:::::::::::::::::::::::::::::::::::::::::::::::","empty.sqf","0","0","0"];
 img = img + [""]; option = option + ["","empty.sqf","0","0","0"];
-img = img + [""]; option = option + ["This project is hosted on github as my public repo","empty.sqf","0","0","0"];
+img = img + [""]; option = option + ["This project is hosted on github as my public repo,","empty.sqf","0","0","0"];
 img = img + [""]; option = option + ["keep it up to date at:","empty.sqf","0","0","0"];
 img = img + [""]; option = option + ["https://github.com/nguyenph88/Dayz-Epoch-Hack-Script","empty.sqf","0","0","0"];
 img = img + [""]; option = option + ["Questions and comments please contact me as below.","empty.sqf","0","0","0"];

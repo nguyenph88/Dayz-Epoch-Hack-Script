@@ -30,6 +30,10 @@ player addWeapon 'ItemEtool';
 player addWeapon 'ItemFlashlightRed';
 player addWeapon 'ItemMatchbox';
 player addWeapon 'ItemWatch';
+player addWeapon 'ItemToolbox';
+player addWeapon 'ItemCrowbar';
+player addWeapon 'ItemToolbox';
+player addWeapon 'ItemHotwireKit';
 
 bp = unitBackpack player;
 bp addweaponCargoGlobal ["BAF_AS50_scoped",1];
