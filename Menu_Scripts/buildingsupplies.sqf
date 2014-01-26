@@ -95,7 +95,11 @@ _items = [
 "ItemTrashToiletpaper",
 "ItemTrashRazor",
 "ItemTankTrap",
-"ItemSandbag"
+"ItemSandbag",
+"light_pole_kit",
+"CinderWall_DZ",
+"cinder_garage_kitlocked",
+"CinderWallDoorSmall_DZ"
 ];
 
 
