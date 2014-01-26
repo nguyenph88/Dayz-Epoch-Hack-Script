@@ -40,6 +40,8 @@ jopaEpoch2 = [];
 jopaEpoch3 = [];
 jopaEpoch4 = [];
 
+jopaSuper = [];
+
 jopamenu = 
 [
 ["",true],
@@ -57,6 +59,7 @@ jopamenu =
 ["DayZ - Whelled", [5], "#USER:jopaDayZ", -5, [["expression", ""]], "1", "1"],
 //added
 ["Epoch", [6], "#USER:jopaEpoch", -5, [["expression", ""]], "1", "1"],
+["Super Vehicle", [7], "#USER:jopaSuper", -5, [["expression", ""]], "1", "1"],
 ["", [-1], "", -5, [["expression", ""]], "1", "0"],
 ["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
 ];
@@ -681,8 +684,8 @@ jopaEpoch3 =
 ["Mi17_Civilian", [5], "", -5, [["expression", "'Mi17_Civilian' createVehicleLocal (position player);"]], "1", "1"],	
 ["Mi17_Civilian_DZ", [6], "", -5, [["expression", "'Mi17_Civilian_DZ' createVehicleLocal (position player);"]], "1", "1"],
 ["Praha V3S", [7], "", -5, [["expression", "'V3S_Civ' createVehicleLocal (position player);"]], "1", "1"],
-["Sedan", [8], "", -5, [["expression", "'car_sedan' createVehicleLocal (position player);"]], "1", "1"],
-["Tractor", [9], "", -5, [["expression", "'Tractor' createVehicleLocal (position player);"]], "1", "1"],
+["** SUPER A-10 **", [8], "", -5, [["expression", "'A10' createVehicleLocal (position player);"]], "1", "1"],
+["** C130J **", [9], "", -5, [["expression", "'C130J' createVehicleLocal (position player);"]], "1", "1"],
 ["Ural (Civil)", [10], "", -5, [["expression", "'UralCivil' createVehicleLocal (position player);"]], "1", "1"],
 ["", [-1], "", -5, [["expression", ""]], "1", "0"],
 ["Next", [11], "#USER:jopaEpoch4", -5, [["expression", ""]], "1", "1"],
@@ -705,6 +708,24 @@ jopaEpoch4 =
 ["", [-1], "", -5, [["expression", ""]], "1", "0"],
 ["Next", [11], "#USER:jopaEpoch", -5, [["expression", ""]], "1", "1"],
 ["Back", [12], "", -4, [["expression", ""]], "1", "1"],	
+["Exit", [13], "#USER:jopamenu", -3, [["expression", ""]], "1", "1"]
+];
+
+jopaSuper = 
+[
+["",true],
+["A10", [2], "", -5, [["expression", "'A10' createVehicleLocal (position player);"]], "1", "1"],	
+["C130J", [3], "", -5, [["expression", "'C130J' createVehicleLocal (position player);"]], "1", "1"],	
+["LAV25", [4], "", -5, [["expression", "'LAV25' createVehicleLocal (position player);"]], "1", "1"],	
+["LAV25_HQ", [5], "", -5, [["expression", "'LAV25_HQ' createVehicleLocal (position player);"]], "1", "1"],
+["ARTY_Sh_122_HE", [6], "", -5, [["expression", "'ARTY_Sh_122_HE' createVehicleLocal (position player);"]], "1", "1"],
+["Sh_120_HE", [7], "", -5, [["expression", "'Sh_120_HE' createVehicleLocal (position player);"]], "1", "1"],	
+["Bo_Mk82", [8], "", -5, [["expression", "'Bo_Mk82' createVehicleLocal (position player);"]], "1", "1"],
+["MtvrRefuel_DES_EP1_DZ", [9], "", -5, [["expression", "'MtvrRefuel_DES_EP1_DZ' createVehicleLocal (position player);"]], "1", "1"],
+["MtvrRefuel_DES_EP1", [10], "", -5, [["expression", "'MtvrRefuel_DES_EP1' createVehicleLocal (position player);"]], "1", "1"],
+["", [-1], "", -5, [["expression", ""]], "1", "0"],
+["Next", [11], "#USER:jopaEpoch2", -5, [["expression", ""]], "1", "1"],
+["To Last Page", [12], "#USER:jopaDayZ4", -4, [["expression", ""]], "1", "1"],	
 ["Exit", [13], "#USER:jopamenu", -3, [["expression", ""]], "1", "1"]
 ];
 
