@@ -5,6 +5,8 @@ Server Control Script for Dayz Epoch after bypassing the Batteye and others auth
 
 REMEMBER: this is not a bypass, it's the scripts that you need to run after bypassing the server in order to control many aspects of that server. There are (maybe) many bypassers out there which can help bypass Battleye, and other Custom-Anti-Cheat on server. Running this script straigth without bypassing authentication step WILL get you immediate ban.
 
+Updated on 02/01/2014: Many bypassers have been detected and banned. Some of my accounts are banned btw :(
+
 Introduction
 =============================
 My friend invited me to play Dayz (Real Virtuality 3 Engine) and asked whether I could find a way to cheat on this game, because he wanted to be on the top list of people on that particular server. After reading through many articles and mods regarding to Dayz (Originally, it's Arma 2 and Arma 2 - Operation Arrowhead game), I found some bypassers that get me through the checking process of Battleye (Main Anti-Cheat). DayZ allows us to use side scripts to control the server (which is what admins use to support players). If your GUID (very unique for each CD-Key) is not set as "admin" and you run those scrips, it would result in immediate and global ban from Batteye. The Game Provider (Bohemia) allows us to use sqf extension to interact with the game. Thing is, how to write and use those script? That's I'm doing right now.
