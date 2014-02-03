@@ -6,6 +6,7 @@ Server Control Script for Dayz Epoch after bypassing the Batteye and others auth
 REMEMBER: this is not a bypass, it's the scripts that you need to run after bypassing the server in order to control many aspects of that server. There are (maybe) many bypassers out there which can help bypass Battleye, and other Custom-Anti-Cheat on server. Running this script straigth without bypassing authentication step WILL get you immediate ban.
 
 Updated on 02/01/2014: Many bypassers have been detected and banned. Some of my accounts are banned btw :(
+Updated on 02/02/2014: Some bypasser providers have updated their bypasser, everything seems to be working now
 
 Introduction
 =============================
