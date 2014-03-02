@@ -99,7 +99,17 @@ _items = [
 "light_pole_kit",
 "CinderWall_DZ",
 "cinder_garage_kitlocked",
-"CinderWallDoorSmall_DZ"
+"CinderWallDoorSmall_DZ",
+"ItemGunRackKit",
+"ItemOilBarrel",
+"ItemFireBarrel_kit",
+"ItemSledgeHead",
+"ItemSledgeHandle",
+"ItemKiloHemp",
+"ItemToolbox",
+"ItemKnife",
+"ItemCrowbar",
+"ItemEtool"
 ];
 
 
@@ -109,7 +119,7 @@ clearWeaponCargoGlobal _box;
 clearMagazineCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
-{_box addMagazineCargoGlobal [_x, 50];} forEach _items;
+{_box addMagazineCargoGlobal [_x, 100];} forEach _items;
 
 
 delaymenu = 

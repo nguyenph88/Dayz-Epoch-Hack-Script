@@ -53,7 +53,12 @@ _items = [
 "PartWheel",
 "PartWoodPile",
 "PartVRotor",
-"TrapBear"
+"TrapBear",
+"ItemCrowbar",
+"ItemGps",
+"ItemToolbox",
+"ItemEtool",
+"ItemKeyKit"
 ];
 
 _weapons = [
@@ -109,7 +114,7 @@ _weapons = [
 "M1014",
 //"m107", // same as DayZ version
 "m107_DZ",
-//"M136", // not working
+"M136", // not working
 "M14_EP1",
 "M16A2",
 "M16A2GL",
@@ -119,10 +124,10 @@ _weapons = [
 "M16A4_GL",
 "M24",
 "M24_des_EP1",
-//"M240", // same as DayZ version
+"M240", // same as DayZ version
 "M240_DZ",
 "m240_scoped_EP1",
-//"M249", // same as DayZ version
+"M249", // same as DayZ version
 "M249_DZ",
 "M249_EP1",
 "M249_m145_EP1",
@@ -176,7 +181,13 @@ _weapons = [
 "BAF_LRR_scoped",
 "FN_FAL",
 "Mk_48_DZ",
-"M240_DZ"
+"M240_DZ",
+"ChainSaw",
+"ChainSawB",
+"ChainSawG",
+"ChainSawP",
+"ChainSawR",
+"ItemMixOil"
 ];
 
 _ammo = [
@@ -297,9 +308,9 @@ clearWeaponCargoGlobal _box;
 clearMagazineCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
-{_box addBackpackCargoGlobal [_x, 1];} forEach _backpacks;
+{_box addBackpackCargoGlobal [_x, 2];} forEach _backpacks;
 {_box addMagazineCargoGlobal [_x, 50];} forEach _items;
-{_box addWeaponCargoGlobal [_x, 5];} forEach _weapons;
+{_box addWeaponCargoGlobal [_x, 10];} forEach _weapons;
 {_box addMagazineCargoGlobal [_x, 50];} forEach _ammo;
 {_box addMagazineCargoGlobal [_x, 50];} forEach _explosives;
 
